@@ -1,0 +1,43 @@
+C:\VisualStudio\Winform C#\PizzaHut\PizzaHutManagement\bin\Debug\PizzaHutManagement.exe.config
+C:\VisualStudio\Winform C#\PizzaHut\PizzaHutManagement\bin\Debug\PizzaHutManagement.exe
+C:\VisualStudio\Winform C#\PizzaHut\PizzaHutManagement\bin\Debug\PizzaHutManagement.pdb
+C:\VisualStudio\Winform C#\PizzaHut\PizzaHutManagement\bin\Debug\BLL PizzaHut.dll
+C:\VisualStudio\Winform C#\PizzaHut\PizzaHutManagement\bin\Debug\DTO PizzaHut.dll
+C:\VisualStudio\Winform C#\PizzaHut\PizzaHutManagement\bin\Debug\Guna.Charts.WinForms.dll
+C:\VisualStudio\Winform C#\PizzaHut\PizzaHutManagement\bin\Debug\Guna.UI.dll
+C:\VisualStudio\Winform C#\PizzaHut\PizzaHutManagement\bin\Debug\Guna.UI2.dll
+C:\VisualStudio\Winform C#\PizzaHut\PizzaHutManagement\bin\Debug\BLL PizzaHut.pdb
+C:\VisualStudio\Winform C#\PizzaHut\PizzaHutManagement\bin\Debug\DTO PizzaHut.pdb
+C:\VisualStudio\Winform C#\PizzaHut\PizzaHutManagement\obj\Debug\PizzaHutManagement.csproj.AssemblyReference.cache
+C:\VisualStudio\Winform C#\PizzaHut\PizzaHutManagement\obj\Debug\PizzaHutManagement.csproj.SuggestedBindingRedirects.cache
+C:\VisualStudio\Winform C#\PizzaHut\PizzaHutManagement\obj\Debug\PizzaHutManagement.frmMainUI.resources
+C:\VisualStudio\Winform C#\PizzaHut\PizzaHutManagement\obj\Debug\PizzaHutManagement.Properties.Resources.resources
+C:\VisualStudio\Winform C#\PizzaHut\PizzaHutManagement\obj\Debug\PizzaHutManagement.csproj.GenerateResource.cache
+C:\VisualStudio\Winform C#\PizzaHut\PizzaHutManagement\obj\Debug\PizzaHutManagement.csproj.CoreCompileInputs.cache
+C:\VisualStudio\Winform C#\PizzaHut\PizzaHutManagement\obj\Debug\PizzaHutManagement.csproj.CopyComplete
+C:\VisualStudio\Winform C#\PizzaHut\PizzaHutManagement\obj\Debug\PizzaHutManagement.exe
+C:\VisualStudio\Winform C#\PizzaHut\PizzaHutManagement\obj\Debug\PizzaHutManagement.pdb
+C:\VisualStudio\Winform C#\PizzaHut\PizzaHutManagement\obj\Debug\PizzaHutManagement.frmLogin.resources
+C:\VisualStudio\Winform C#\PizzaHut\PizzaHutManagement\obj\Debug\PizzaHutManagement.frmTableList.resources
+C:\VisualStudio\Winform C#\PizzaHut\PizzaHutManagement\obj\Debug\PizzaHutManagement.frmEXTableDetails.resources
+C:\VisualStudio\Winform C#\PizzaHut\PizzaHutManagement\obj\Debug\PizzaHutManagement.frmCustomers.resources
+C:\VisualStudio\Winform C#\PizzaHut\PizzaHutManagement\obj\Debug\PizzaHutManagement.frmDelieveries.resources
+C:\VisualStudio\Winform C#\PizzaHut\PizzaHutManagement\obj\Debug\PizzaHutManagement.frmEXAddFoods.resources
+C:\VisualStudio\Winform C#\PizzaHut\PizzaHutManagement\obj\Debug\PizzaHutManagement.frmMenu.resources
+C:\VisualStudio\Winform C#\PizzaHut\PizzaHutManagement\obj\Debug\PizzaHutManagement.frmOrders.resources
+C:\VisualStudio\Winform C#\PizzaHut\PizzaHutManagement\obj\Debug\PizzaHutManagement.frmWarehouse.resources
+C:\VisualStudio\Winform C#\PizzaHut\PizzaHutManagement\bin\Debug\DAL PizzaHut.dll
+C:\VisualStudio\Winform C#\PizzaHut\PizzaHutManagement\bin\Debug\BLL PizzaHut.dll.config
+C:\VisualStudio\Winform C#\PizzaHut\PizzaHutManagement\bin\Debug\DAL PizzaHut.pdb
+C:\VisualStudio\Winform C#\PizzaHut\PizzaHutManagement\bin\Debug\DAL PizzaHut.dll.config
+C:\VisualStudio\Winform C#\PizzaHut\PizzaHutManagement\obj\Debug\PizzaHutManagement.frmAdmin.resources
+C:\VisualStudio\Winform C#\PizzaHut\PizzaHutManagement\obj\Debug\PizzaHutManagement.TableWidget.resources
+C:\VisualStudio\Winform C#\PizzaHut\PizzaHutManagement\obj\Debug\PizzaHutManagement.FoodItemWidget.resources
+C:\VisualStudio\Winform C#\PizzaHut\PizzaHutManagement\obj\Debug\PizzaHutManagement.FoodItemEXWidget.resources
+C:\VisualStudio\Winform C#\PizzaHut\PizzaHutManagement\obj\Debug\PizzaHutManagement.frmEXCustomer.resources
+C:\VisualStudio\Winform C#\PizzaHut\PizzaHutManagement\obj\Debug\PizzaHutManagement.frmBillList.resources
+C:\VisualStudio\Winform C#\PizzaHut\PizzaHutManagement\obj\Debug\PizzaHutManagement.frmEXBill.resources
+C:\VisualStudio\Winform C#\PizzaHut\PizzaHutManagement\obj\Debug\PizzaHutManagement.frmAdminCtrl.resources
+C:\VisualStudio\Winform C#\PizzaHut\PizzaHutManagement\obj\Debug\PizzaHutManagement.frmEXExportWH.resources
+C:\VisualStudio\Winform C#\PizzaHut\PizzaHutManagement\obj\Debug\PizzaHutManagement.frmEXImportWH.resources
+C:\VisualStudio\Winform C#\PizzaHut\PizzaHutManagement\obj\Debug\PizzaHutManagement.frmEXWarehouseItemsList.resources

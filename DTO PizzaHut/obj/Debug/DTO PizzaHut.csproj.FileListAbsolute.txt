@@ -1,0 +1,6 @@
+C:\VisualStudio\Winform C#\PizzaHut\DTO PizzaHut\bin\Debug\DTO PizzaHut.dll
+C:\VisualStudio\Winform C#\PizzaHut\DTO PizzaHut\bin\Debug\DTO PizzaHut.pdb
+C:\VisualStudio\Winform C#\PizzaHut\DTO PizzaHut\obj\Debug\DTO PizzaHut.csproj.AssemblyReference.cache
+C:\VisualStudio\Winform C#\PizzaHut\DTO PizzaHut\obj\Debug\DTO PizzaHut.csproj.CoreCompileInputs.cache
+C:\VisualStudio\Winform C#\PizzaHut\DTO PizzaHut\obj\Debug\DTO PizzaHut.dll
+C:\VisualStudio\Winform C#\PizzaHut\DTO PizzaHut\obj\Debug\DTO PizzaHut.pdb

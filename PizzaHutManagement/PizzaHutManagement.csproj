@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{981FA2B5-FC5D-45E3-B572-A75AB2DFE363}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PizzaHutManagement</RootNamespace>
+    <AssemblyName>PizzaHutManagement</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.Charts.WinForms, Version=1.0.8.0, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>packages\Guna.Charts.WinForms.1.0.8\lib\net461\Guna.Charts.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI">
+      <HintPath>..\..\..\TestFramework\[FTUApps.com] - Guna UI Framework Ultimate v2.0.0.1 + Keygen\Guna.UI-Framework-Lib-master\Guna.UI WinForms\.net 4.0\Guna.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2, Version=2.0.4.4, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>packages\Guna.UI2.WinForms.2.0.4.4\lib\net461\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DB_PizzaHutDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DB_PizzaHutDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FoodItemEXWidget.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FoodItemEXWidget.Designer.cs">
+      <DependentUpon>FoodItemEXWidget.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FoodItemWidget.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FoodItemWidget.Designer.cs">
+      <DependentUpon>FoodItemWidget.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdmin.Designer.cs">
+      <DependentUpon>frmAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdminCtrl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdminCtrl.Designer.cs">
+      <DependentUpon>frmAdminCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBillList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBillList.Designer.cs">
+      <DependentUpon>frmBillList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCustomers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCustomers.Designer.cs">
+      <DependentUpon>frmCustomers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDelieveries.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDelieveries.Designer.cs">
+      <DependentUpon>frmDelieveries.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEXAddFoods.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEXAddFoods.Designer.cs">
+      <DependentUpon>frmEXAddFoods.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEXBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEXBill.Designer.cs">
+      <DependentUpon>frmEXBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEXCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEXCustomer.Designer.cs">
+      <DependentUpon>frmEXCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEXExportWH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEXExportWH.Designer.cs">
+      <DependentUpon>frmEXExportWH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEXImportWH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEXImportWH.Designer.cs">
+      <DependentUpon>frmEXImportWH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEXTableDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEXTableDetails.Designer.cs">
+      <DependentUpon>frmEXTableDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEXWarehouseItemsList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEXWarehouseItemsList.Designer.cs">
+      <DependentUpon>frmEXWarehouseItemsList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenu.Designer.cs">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOrders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOrders.Designer.cs">
+      <DependentUpon>frmOrders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTableList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTableList.Designer.cs">
+      <DependentUpon>frmTableList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMainUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMainUI.Designer.cs">
+      <DependentUpon>frmMainUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmWarehouse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWarehouse.Designer.cs">
+      <DependentUpon>frmWarehouse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TableWidget.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TableWidget.Designer.cs">
+      <DependentUpon>TableWidget.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FoodItemEXWidget.resx">
+      <DependentUpon>FoodItemEXWidget.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FoodItemWidget.resx">
+      <DependentUpon>FoodItemWidget.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdmin.resx">
+      <DependentUpon>frmAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdminCtrl.resx">
+      <DependentUpon>frmAdminCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBillList.resx">
+      <DependentUpon>frmBillList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCustomers.resx">
+      <DependentUpon>frmCustomers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDelieveries.resx">
+      <DependentUpon>frmDelieveries.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEXAddFoods.resx">
+      <DependentUpon>frmEXAddFoods.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEXBill.resx">
+      <DependentUpon>frmEXBill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEXCustomer.resx">
+      <DependentUpon>frmEXCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEXExportWH.resx">
+      <DependentUpon>frmEXExportWH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEXImportWH.resx">
+      <DependentUpon>frmEXImportWH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEXTableDetails.resx">
+      <DependentUpon>frmEXTableDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEXWarehouseItemsList.resx">
+      <DependentUpon>frmEXWarehouseItemsList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenu.resx">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOrders.resx">
+      <DependentUpon>frmOrders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTableList.resx">
+      <DependentUpon>frmTableList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMainUI.resx">
+      <DependentUpon>frmMainUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWarehouse.resx">
+      <DependentUpon>frmWarehouse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="TableWidget.resx">
+      <DependentUpon>TableWidget.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="DB_PizzaHutDataSet.xsc">
+      <DependentUpon>DB_PizzaHutDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DB_PizzaHutDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DB_PizzaHutDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_PizzaHutDataSet.xss">
+      <DependentUpon>DB_PizzaHutDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL PizzaHut\BLL PizzaHut.csproj">
+      <Project>{ea5e0a35-f514-4994-9308-621d08d61122}</Project>
+      <Name>BLL PizzaHut</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO PizzaHut\DTO PizzaHut.csproj">
+      <Project>{d26bcd3d-0949-40f3-8c91-89a81507f3e1}</Project>
+      <Name>DTO PizzaHut</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\Images\Pizza_Hut_logo.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Icons\user_icon-icons.com_57997.png" />
+    <Content Include="Resources\Images\7Up_1.5L.jpg" />
+    <Content Include="Resources\Images\7Up_Can.jpg" />
+    <Content Include="Resources\Images\Aquafina.jpg" />
+    <Content Include="Resources\Images\Banh_Cuon_Pho_Mai.jpg" />
+    <Content Include="Resources\Images\Banh_Mi_Bo_Toi.jpg" />
+    <Content Include="Resources\Images\Banh_Tiramisu.jpg" />
+    <Content Include="Resources\Images\Canh_Ga_Chien_Xot_Cay_Han_Quoc.jpg" />
+    <Content Include="Resources\Images\Khoai_Tay_Chien.jpg" />
+    <Content Include="Resources\Images\Macchiato_Dao.jpg" />
+    <Content Include="Resources\Images\Macchiato_Vai.jpg" />
+    <Content Include="Resources\Images\Mirinda_Orange_Can.jpg" />
+    <Content Include="Resources\Images\Mojito_Dao.jpg" />
+    <Content Include="Resources\Images\Mojito_Vai.jpg" />
+    <Content Include="Resources\Images\Muc_Chien_Gion.jpg" />
+    <Content Include="Resources\Images\Pepsi_1.5L.jpg" />
+    <Content Include="Resources\Images\Pepsi_Can.jpg" />
+    <Content Include="Resources\Images\Pepsi_Lemon_Can.jpg" />
+    <Content Include="Resources\Images\Pepsi_NoCalo_Can.jpg" />
+    <Content Include="Resources\Images\Pho_Mai_Chien_Gion.jpg" />
+    <Content Include="Resources\Images\Pizza_Bo_BBQ_Xot_Cay_Han_Quoc.jpg" />
+    <Content Include="Resources\Images\Pizza_Ca_Ngu.jpg" />
+    <Content Include="Resources\Images\Pizza_Gap_Doi_Nhan_Phu_Con_Loc_Hai_San.jpg" />
+    <Content Include="Resources\Images\Pizza_Gap_Doi_Nhan_Phu_Hai_San_Xot_Pesto.jpg" />
+    <Content Include="Resources\Images\Pizza_Gap_Doi_Nhan_Phu_Hai_San_Xot_Tieu_Den.jpg" />
+    <Content Include="Resources\Images\Pizza_Ga_Nuong_Nam.jpg" />
+    <Content Include="Resources\Images\Pizza_HaiSanNhietDoi.jpg" />
+    <Content Include="Resources\Images\Pizza_Hai_San_Xot_Cay.jpg" />
+    <Content Include="Resources\Images\Pizza_Hawaiian.jpg" />
+    <Content Include="Resources\Images\Pizza_Pepperoni.jpg" />
+    <Content Include="Resources\Images\Pizza_Pho_Mai_Bon_Vi_Mat_Ong.jpg" />
+    <Content Include="Resources\Images\Pizza_RauCu.jpg" />
+    <Content Include="Resources\Images\Pizza_Rau_Cu_Ca_Chua.jpg" />
+    <Content Include="Resources\Images\Pizza_Thap_Cam.jpg" />
+    <Content Include="Resources\Images\Pizza_Thit_Bo_va_Hai_San.jpg" />
+    <Content Include="Resources\Images\Pizza_Thit_Va_Xuc_Xich.jpg" />
+    <Content Include="Resources\Images\Pizza_Tom_Thit_Nuong_Tieu.jpg" />
+    <Content Include="Resources\Images\Pizza_Tom_Vien_Pho_Mai_3_Vi.jpg" />
+    <Content Include="Resources\Images\Pizza_Tom_Xot_Bo_Toi.jpg" />
+    <Content Include="Resources\Images\Pizza_Vien_Pho_Mai_2_Loai_Nhan_Phu.jpg" />
+    <Content Include="Resources\Images\Tra_Dao_Hat_Chia.jpg" />
+    <Content Include="Resources\Images\Tra_Vai.jpg" />
+    <Content Include="Resources\Images\Xa_Lach_Ca_Ngu.jpg" />
+    <Content Include="Resources\Images\Xa_Lach_Ga_Pesto.jpg" />
+    <Content Include="Resources\Images\Xuc_Xich_Y_Nuong.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
